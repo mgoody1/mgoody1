@@ -1,0 +1,19 @@
+<html>
+    <title>Test Page</title>
+        <header>
+            <section class="header">
+                <h1>First try</h1>
+                    <p>This will actually be my first atttempt at any
+                    code written on vscode and sent up on git bash. 
+                    Guess we will see how this works out.</p>
+            </section>
+        </header>
+
+        <section class="middle">
+            <h2>This is the middle of my page</h2>
+                <p>I'm not sure if this is even working or what I'm 
+                supposed to do once I get this to git hub. That is 
+                if I'm able to.</p>
+        </section>
+</html>
+
