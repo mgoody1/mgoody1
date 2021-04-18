@@ -60,6 +60,8 @@ table {
 html {
     font-size: 62.5%;
     font-family: 'Orelega One', cursive;
+    width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -67,6 +69,121 @@ h1, h2, h3 {
     font-family: 'Dela Gothic One', cursive;
 }
 
+.container {
+    font-size: 1.5rem;
+}
+
 .container h1 {
     font-size: 4.5rem;
+}
+
+
+header {
+    background-color: grey;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+header nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    font-size: 2rem;
+}
+
+header nav a {
+    text-decoration: none;
+    background-color: aqua;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.youtube {
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 25px;
+}
+
+.youtube a {
+    text-decoration: none;
+}
+
+.youtube img {
+    width: 75px;
+}
+
+.middle .middle-bits h2, h3 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 2.5rem;
+}
+
+.middle-bits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.one {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 40px;
+
+}
+
+.two {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.three {
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 40px;
+}
+
+footer {
+    background-color: grey;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer p {
+    font-size: 1.7rem;
+}
+
+footer nav {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer nav a {
+    background-color: green;
+    border: 1px solid blue;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: none;
+}
+
+/* channel page */
+
+.channel-image {
+    width: 400px;
 }
